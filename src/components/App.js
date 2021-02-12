@@ -3,7 +3,10 @@ import { useSelector } from 'react-redux'
 
 const App = () => {
   const store = useSelector(store => store)
-  console.log(store)
+  // const loading = useSelector(store => store.authedUser === null)
+
+console.log('>>>',store)
+  
   return (
     <div>
       App
