@@ -35,7 +35,6 @@ export const tweets = (state = {}, action) => {
         [tweet.id]: tweet,
         ...replyingTo,
       }
-
     default : 
       return state
   }

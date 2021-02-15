@@ -4,7 +4,7 @@ export const RECEIVE_TWEETS = "RECEIVE_TWEETS"
 export const ADD_TWEET = "ADD_TWEET"
 export const TOGGLE_LIKE = "TOGGLE_LIKE"
 
-export const getTweets = (tweets) => {
+export const receiveTweets = (tweets) => {
   return {
     type: RECEIVE_TWEETS,
     tweets
